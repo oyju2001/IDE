@@ -8,7 +8,7 @@ import java.util.Enumeration;
 import java.util.Vector;
 
 public class UDPServer extends Thread {
-	public Vector<Packet> vector = new Vector<Packet>(10);
+	public Vector<Packet> vector = new Vector<Packet>();
 	
 	public Packet getPacket(){
 			Packet p = vector.get(0);
